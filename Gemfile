@@ -14,12 +14,14 @@ gem 'rails', '~> 5.0.2'
 gem 'sqlite3', group: [:development, :test]
 #postgres for production databse
 gem 'pg', group: :production
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
+#twitter bootstrap
+gem 'bootstrap-sass'
 #12 factor for heroku
 gem 'rails_12factor', group: :production
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
