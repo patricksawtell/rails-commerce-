@@ -18,6 +18,9 @@ gem 'pg', group: :production
 gem 'bootstrap', '~> 4.0.0.alpha6'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+
+# letter opener
+gem 'letter_opener', group: :development
 #12 factor for heroku
 gem 'rails_12factor', group: :production
 
