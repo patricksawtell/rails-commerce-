@@ -20,6 +20,12 @@ gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'sass-rails', '~> 5.0'
 #12 factor for heroku
 gem 'rails_12factor', group: :production
+
+#stripe for taking payments
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
+# figaro 
+gem 'figaro'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use Uglifier as compressor for JavaScript assets
