@@ -19,11 +19,16 @@
   <div id="content" class="container">
     <header id="content-header">
         <div id="price-container">
-          <span class="glyphicon glyphicon-tag"></span><span class="price">$9.99</span>
+          <span class="glyphicon glyphicon-tag"></span><span class="price">$5.99</span>
         </div>
         <%= image_tag('header-image.jpg', id:"content-head-img") %>
     </header>
+
     <%= yield %>
+
     </div>
   </body>
+    <footer id="site-footer"> 
+      <p>&copy;sawtell</p>
+    </footer>
 </html>
