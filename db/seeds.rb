@@ -8,8 +8,8 @@
 
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-dreamBig = Product.create(title: "Dream Big", subtitle: "lorum ipsum" image_name: "dreambig.png", price: "5.99", sku: "dreamBig", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png", details: "Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime", description: %{<p>It's your purchase</p>})
+dreamBig = Product.create(title: "Dream Big", subtitle: "Be bold", image_name:"dreambig.png", price: "5.99", sku: "dreamBig", info: "inspirational quote", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png", details: "Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime", description: %{wise words to live by})
 
-bestCat = Product.create(title: "Mr.Cat", subtitle: "lorum ipsum" image_name: "bestcatever.png", price: "5.99", sku: "bestCat", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/bestcatever.png", details: "The Best Cat.", description: %{<p>It's the best cat ever!</p>})
+bestCat = Product.create(title: "Mr.Cat", subtitle: "He really is great!", image_name: "bestcatever.png", price: "5.99", sku: "bestCat", info: "A truly great cat.", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/bestcatever.png", details: "No heaven will not ever Heaven be. Unless my cats are there to welcome me.", description: %{The best cat ever!})
 
 	
