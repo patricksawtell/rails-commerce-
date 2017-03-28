@@ -29,6 +29,14 @@ gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 # figaro 
 gem 'figaro'
+
+# activeadmin for system admin
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+# devise for user authentication 
+gem 'devise'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use Uglifier as compressor for JavaScript assets
