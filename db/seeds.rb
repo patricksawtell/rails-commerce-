@@ -5,4 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
+
+demo = Product.create(title: "Dream Big", subtitle: "lorum ipsum" image_name: "dreambig.png", price: "5.99", sku: "dreamBig", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png", details: "Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime", description: %{<p>It's your purchase</p>})
