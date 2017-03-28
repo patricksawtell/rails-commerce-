@@ -1,7 +1,7 @@
 class PurchaseMailer < ActionMailer::Base
 
  	
- 	default from: "Ruby Dev <psawtell@gmail.com>"
+ 	default from: "Ruby Dev <test@email.com>"
  	layout 'purchase_mailer'
  
  	def purchase_receipt purchase

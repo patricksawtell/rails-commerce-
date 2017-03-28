@@ -10,11 +10,11 @@
           <div id="receipt-details" class="row clearfix">
             <div class="col-sm-8 receipt-left">
 
-              <p><strong class="font-weight-heavy"><%= @product.title %></strong><br/> <span class="font-weight-light"></span></p>
+              <p><strong class="font-weight-heavy"><%= @product.title %></strong><br/> <span class="font-weight-light"><%= @product.subtitle %></span></p>
 
             </div>
             <div class="col-sm-4">
-              $5.99
+              $<%= @product.price %>
             </div>
           </div>
           <a href="https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png">
