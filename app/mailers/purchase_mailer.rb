@@ -1,11 +1,12 @@
 class PurchaseMailer < ActionMailer::Base
 
+	layout 'purchase_mailer'
+ 	default from: "Ruby Dev <test@gmail.com>"
  	
- 	default from: "Ruby Dev <test@email.com>"
- 	layout 'purchase_mailer'
- 
+ 	
  	def purchase_receipt purchase
  		@purchase = purchase
+ 		@product = Product.find(@purchase.product_id)
  		mail to: purchase.email, subject: "Thank you for your support!"
  	end
 end

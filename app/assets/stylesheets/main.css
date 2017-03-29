@@ -1,8 +1,10 @@
 /*REUSABLE STYLES */
 
+
 img {
     max-width: 100%;
 }
+
 
 ul.no-indent {
     list-style-position: inside;
@@ -21,6 +23,7 @@ ul.no-indent {
     max-width: 640px;
     min-width: 320px;
 }
+
 
 .font-weight-heavy {
     font-weight: 800;
@@ -149,14 +152,14 @@ body {
 }
 
 .dotmatrix {
-    background: url('../img/dot-matrix.svg') 50% 0% repeat-y #fff;
+    /*background: url('../img/dot-matrix.svg') 50% 0% repeat-y #fff;*/
     height: 100%;
     background-size: 50%;
     width: 10%;
     position: absolute;
 }
 
-.dotmatrix.left {
+/*.dotmatrix.left {
     border-right: 1px dotted #ccc;
     left: 0px;
 }
@@ -164,7 +167,7 @@ body {
 .dotmatrix.right {
     border-left: 1px dotted #ccc;
     right: 0px;
-}
+}*/
 
 #receipt-content {
     position: absolute;
@@ -203,6 +206,13 @@ body {
 #receipt-footer small {
     font-size: 10px;
     font-weight: 300;
+}
+
+/* PRODUCTS */
+
+.product.clearfix {
+    float: left;
+    padding: 5px 15%;
 }
 
 

@@ -8,8 +8,8 @@
 
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-dreamBig = Product.create(title: "Dream Big", subtitle: "Be bold", image_name:"dreambig.png", price: "5.99", sku: "dreamBig", info: "inspirational quote", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png", details: "Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime", description: %{wise words to live by})
+dreamBig = Product.create(title: "Dream Big", subtitle: "Be bold", image_name:"dreambig.png", price: "5.99", sku: "Dream", info: "Inspirational quote", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png", details: "First, solve the problem. Then, write the code.", description: %{poster image})
 
-bestCat = Product.create(title: "Mr.Cat", subtitle: "He really is great!", image_name: "bestcatever.png", price: "5.99", sku: "bestCat", info: "A truly great cat.", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/bestcatever.png", details: "No heaven will not ever Heaven be. Unless my cats are there to welcome me.", description: %{The best cat ever!})
+keepCalm = Product.create(title: "Keep Calm", subtitle: "& carry on!", image_name: "keepcalm.png", price: "3.99", sku: "Calm", info: "Famous words for you!", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/keepcalm.png", details: "Think it, dream it, code it!", description: %{poster image})
 
 	

@@ -1,29 +1,28 @@
 <section id="content-receipt" class="clearfix">
-      <div id="receipt-container">
-        
+  <div id="receipt-container">
+    <div id="receipt-content">
+      <h4 id="receipt-title">Thank You!</h4>
 
-        <div id="receipt-content">
-          <h4 id="receipt-title">Thank You!</h4>
+      <p><strong>RECEIPT</strong></p>
 
-          <p><strong>RECEIPT</strong></p>
-
-          <div id="receipt-details" class="row clearfix">
-            <div class="col-sm-8 receipt-left">
-
-              <p><strong class="font-weight-heavy"><%= @product.title %></strong><br/> <span class="font-weight-light"><%= @product.subtitle %></span></p>
-
-            </div>
-            <div class="col-sm-4">
-              $<%= @product.price %>
-            </div>
-          </div>
-          <a href="https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png">
-          <button type="button" class="btn btn-success btn-xs">DOWNLOAD</button></a>
-          <footer id="receipt-footer">
-            <small>Your purchase is complete!</small>
-          </footer>
+      <div id="receipt-details" class="row clearfix">
+        <div class="col-sm-8 receipt-left">
+          <p><strong class="font-weight-heavy"><%= @product.title %></strong><br/> <span class="font-weight-light"><%= @product.subtitle %></span></p>
+        </div>
+        <div class="col-sm-4">
+          $<%= @product.price %>
         </div>
       </div>
-      <div id="receipt-shadow"></div>
-    </section>
+        <a href='<%= @product.download_url %>'>
+          <button type="button" class="btn btn-success btn-xs">DOWNLOAD</button></a>
+        <footer id="receipt-footer">
+          <small>Your purchase is complete!</small>
+        </footer>
+        <small>
+          <%= link_to("<< products page", products_path, :class => 'back-link') %>
+        </small>
+    </div>
+  </div>
+  <div id="receipt-shadow"></div>
+</section>
 

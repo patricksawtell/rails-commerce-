@@ -1,0 +1,18 @@
+<h4 id="article-title"> Todays available products:</h4>
+
+<section id="products">
+
+	<% @products.each do |product| %>
+ 		<div class="product clearfix">
+    	<div class="product-image-container">
+    		<div id="product-content">
+    			<p> <strong class="font-weight-heavy"><%= product.title %></strong></p>
+    			<a href="<%= product_path(product) %>" data-turbolinks= "false" >
+     			<img src="<%= asset_path product.image_name %>"  alt="<%= product.title %>" height="90" width="120"/></a>
+     				<p class="product-price">$<%= product.price %></p>
+     		</div>
+    	</div>
+ 		</div>
+ <% end %>
+</section>
+
