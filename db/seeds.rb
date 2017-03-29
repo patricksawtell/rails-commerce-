@@ -8,8 +8,8 @@
 
 AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password')
 
-dreamBig = Product.create(title: "Dream Big", subtitle: "Be bold", image_name:"dreambig.png", price: "5.99", sku: "Dream", info: "Inspirational quote", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png", details: "First, solve the problem. Then, write the code.", description: %{poster image})
+dreamBig = Product.create(title: "Dream Big", subtitle: "Be bold", image_name:"dreambig.png", price: "5.99", sku: "Dream", info: "Inspirational quote", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/dreambig.png", details: "First, solve the problem. Then, write the code.", description: %{expensive poster})
 
-keepCalm = Product.create(title: "Keep Calm", subtitle: "& carry on!", image_name: "keepcalm.png", price: "3.99", sku: "Calm", info: "Famous words for you!", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/keepcalm.png", details: "Think it, dream it, code it!", description: %{poster image})
+keepCalm = Product.create(title: "Keep Calm", subtitle: "& carry on!", image_name: "keepcalm.png", price: "3.99", sku: "Calm", info: "Famous words for you!", download_url: "https://s3.ca-central-1.amazonaws.com/railscommerce/keepcalm.png", details: "Think it, dream it, code it!", description: %{large poster})
 
 	
