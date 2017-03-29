@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+* Rails 5.0.2 application: rails s development http://localhost:3000.
 
-* Ruby version
+* Stripe (test card: 4242 4242 4242 4242) to Accept Subscription/Payments.
 
-* System dependencies
+* Email Receipts Using SendGrid.
 
-* Configuration
+* AWS buket integration.
 
-* Database creation
+* Deployed Using Heroku https://rails-commerce.herokuapp.com/
 
-* Database initialization
+* ActiveAdmin route: https://rails-commerce.herokuapp.com/admin/login
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
